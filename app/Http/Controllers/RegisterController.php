@@ -17,8 +17,4 @@ class RegisterController extends Controller
             return abort(404);
         }
     }
-
-    public function test(){
-        return 'test';
-    }
 }
